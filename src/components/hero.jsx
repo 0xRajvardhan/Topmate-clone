@@ -10,10 +10,10 @@ export const HeroSection = () => {
           <h1 className="text-6xl font-semibold text-black pb-7">Sindhu Biswal</h1>
           <p className="text-l font-semibold text-black">Growth Leader @Jupiter, Betterhalf, FilterCopy, PayTm Insider, Dice Media | Mentored 1000+ professionals, students & first time founders</p>
           <div className="flex flex-row mt-10">
-            <BsLinkedin className="mx-2" />
-            <BsTwitter className="mx-2" />
-            <BsYoutube className="mx-2" />
-            <BsInstagram className="mx-2" />
+            <div className="bg-slate-200 rounded-full mx-1 h-10 w-10"><BsLinkedin className=" w-5 h-5 mx-auto mt-2" /></div>
+            <div className="bg-slate-200 rounded-full mx-1 h-10 w-10"><BsTwitter className=" w-5 h-5 mx-auto mt-2" /></div>
+            <div className="bg-slate-200 rounded-full mx-1 h-10 w-10"><BsYoutube className=" w-5 h-5 mx-auto mt-2" /></div>
+            <div className="bg-slate-200 rounded-full mx-1 h-10 w-10"><BsInstagram className=" w-5 h-5 mx-auto mt-2" /></div>
           </div>
         </div>
       </div>
