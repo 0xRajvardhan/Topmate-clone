@@ -1,4 +1,5 @@
 import React from "react";
+import { BsLinkedin, BsTwitter, BsYoutube, BsInstagram } from "react-icons/bs";
 
 export const HeroSection = () => {
   return (
@@ -8,6 +9,12 @@ export const HeroSection = () => {
         <div className="flex flex-col px-20 mb-12">
           <h1 className="text-6xl font-semibold text-black pb-7">Sindhu Biswal</h1>
           <p className="text-l font-semibold text-black">Growth Leader @Jupiter, Betterhalf, FilterCopy, PayTm Insider, Dice Media | Mentored 1000+ professionals, students & first time founders</p>
+          <div className="flex flex-row mt-10">
+            <BsLinkedin className="mx-2" />
+            <BsTwitter className="mx-2" />
+            <BsYoutube className="mx-2" />
+            <BsInstagram className="mx-2" />
+          </div>
         </div>
       </div>
     </>
