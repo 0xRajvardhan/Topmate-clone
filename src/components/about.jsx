@@ -4,8 +4,9 @@ export const About = () => {
     return (
         <>
             <div className="container px-12 mb-12 mx-auto flex justify-between items-center h-max">
-                <div className="h-full mr-14">
-                    <div className="bg-red-400 w-60 h-60 ml-20 pt-0"/>
+                <div className="h-full mr-14 flex flex-col">
+                    <p className="text-4xl font-bold mx-auto pb-14">About me</p>
+                    <div className="bg-red-400 w-60 h-60 ml-20 pt-0" />
                 </div>
                 <div className="flex flex-col px-20 mb-12 text-xl font text-black mt-12">
                     <p className="mt-11">I am Sindhu! I have scaled various consumer internet startups such as Betterhalf, PayTm Insider, FilterCopy, Dice Media, Gobble , Nutshell, Imumz. </p>
