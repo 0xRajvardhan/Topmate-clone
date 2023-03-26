@@ -2,6 +2,9 @@ import { HeroSection } from "./components/hero";
 import { Navbar } from "./components/navbar";
 import { About } from "./components/about";
 import { Footer } from "./components/footer";
+
+import  Form  from "./components/form";
+
 import { CardSection } from "./components/cardSection";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 
@@ -23,6 +26,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/form" element={<Form />} />
         </Routes>
       </BrowserRouter>
     </>
