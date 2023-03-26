@@ -12,15 +12,15 @@ const Form = () => {
                         <div className="font-xl font-semibold mt-2 ml-5">Sindhu Biswal</div>
                     </div>
 
-                    <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+                    <hr class="h-px my-8 bg-gray-200 dark:bg-gray-700"></hr>
 
                     <form className="max-w-md mx-auto">
                         <div className="mb-4">
-                            <label className="block text-gray-700 font-semibold mb-2" htmlFor="name">
+                            <label className="block text-gray-700 font-normal mb-2" htmlFor="name">
                                 Your name
                             </label>
                             <input
-                                className="appearance-none border rounded w-[30rem] py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                className="appearance-none border border-slate-700 rounded-lg w-[28rem] py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                 id="name"
                                 type="text"
                                 placeholder="Enter your name"
@@ -28,11 +28,11 @@ const Form = () => {
                             />
                         </div>
                         <div className="mb-4">
-                            <label className="block text-gray-700 font-semibold mb-2" htmlFor="email">
+                            <label className="block text-gray-700 font-normal mb-2" htmlFor="email">
                                 Email
                             </label>
                             <input
-                                className="appearance-none border rounded w-[30rem] py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                className="appearance-none border border-slate-700 rounded-lg w-[28rem] py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                 id="email"
                                 type="email"
                                 placeholder="Enter your email"
@@ -40,11 +40,11 @@ const Form = () => {
                             />
                         </div>
                         <div className="mb-4">
-                            <label className="block text-gray-700 font-semibold mb-2" htmlFor="text">
+                            <label className="block text-gray-700 font-normal mb-2" htmlFor="text">
                                 Text
                             </label>
                             <input
-                                className="appearance-none border rounded w-[30rem] py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                className="appearance-none border border-slate-700 rounded-lg w-[28rem] py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                 id="phone"
                                 type="text"
                                 placeholder="Enter phone number"
@@ -53,7 +53,7 @@ const Form = () => {
 
                         </div>
                     </form>
-                    <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700 w-full shadow-xl"></hr>
+                    <hr class="h-px my-8 bg-gray-200 dark:bg-gray-700 w-full drop-shadow-xl"></hr>
 
                     <div className="flex justify-between">
                         <p className="text-lg font-bold mt-2">₹899</p>
