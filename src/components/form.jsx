@@ -4,7 +4,7 @@ import { BsArrowLeft } from "react-icons/bs";
 const Form = () => {
     return (
         <>
-            <div className="bg-[#F4E1D6] h-screen flex justify-center items-center">
+            <div className="bg-[#fbdebe] h-screen flex justify-center items-center">
                 <div className="bg-white h-max w-[30rem] p-10 rounded-xl">
                     <div className="flex">
                         <BsArrowLeft className="text-green-600 font-extrabold text-4xl" />
@@ -19,7 +19,7 @@ const Form = () => {
                             <h1 className="text-2xl font-bold">Career Mentorship - For Students, Professionals</h1>
                             <p className="text-slate-400 text-sm font-semibold">Video Meeting . 30mins</p>
                         </div>
-                        <div className="">
+                        <div className="mt-4">
                             <div className="bg-slate-200 rounded-full h-9 w-14">
                                 <p className="font-bold pt-1 pl-2">₹899</p>
                             </div>
