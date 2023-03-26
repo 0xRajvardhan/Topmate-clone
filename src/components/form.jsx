@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import { BsArrowLeft } from "react-icons/bs";
+import { MdDateRange } from "react-icons/md";
+import { RxPencil1 } from "react-icons/rx";
 
 const Form = () => {
     return (
@@ -24,6 +26,11 @@ const Form = () => {
                                 <p className="font-bold pt-1 pl-2">₹899</p>
                             </div>
                         </div>
+                    </div>
+
+                    <div className="appearance-none border border-green-700 rounded-lg w-[25rem] py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline flex justify-between bg-green-100">
+                        <p className="font-bold text-green-800 text-sm flex"><MdDateRange className="mr-2 text-lg"/>Mon, 27 Mar | 8:30 - 9:00PM (GMT +05:30)</p>
+                        <RxPencil1 className="text-green-800" />
                     </div>
 
                     <form className="max-w-md mx-auto">
