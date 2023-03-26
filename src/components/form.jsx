@@ -5,14 +5,26 @@ const Form = () => {
     return (
         <>
             <div className="bg-[#F4E1D6] h-screen flex justify-center items-center">
-                <div className="bg-white h-max w-[35rem] p-10">
+                <div className="bg-white h-max w-[30rem] p-10 rounded-xl">
                     <div className="flex">
                         <BsArrowLeft className="text-green-600 font-extrabold text-4xl" />
                         <div className="bg-purple-800 rounded-full w-10 h-10 ml-5 " />
                         <div className="font-xl font-semibold mt-2 ml-5">Sindhu Biswal</div>
                     </div>
 
-                    <hr class="h-px my-8 bg-gray-200 dark:bg-gray-700"></hr>
+                    <hr class="h-px my-4 bg-gray-200 dark:bg-gray-700"></hr>
+
+                    <div className="flex mb-7">
+                        <div className="flex flex-col">
+                            <h1 className="text-2xl font-bold">Career Mentorship - For Students, Professionals</h1>
+                            <p className="text-slate-400 text-sm font-semibold">Video Meeting . 30mins</p>
+                        </div>
+                        <div className="">
+                            <div className="bg-slate-200 rounded-full h-9 w-14">
+                                <p className="font-bold pt-1 pl-2">₹899</p>
+                            </div>
+                        </div>
+                    </div>
 
                     <form className="max-w-md mx-auto">
                         <div className="mb-4">
@@ -20,7 +32,7 @@ const Form = () => {
                                 Your name
                             </label>
                             <input
-                                className="appearance-none border border-slate-700 rounded-lg w-[28rem] py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                className="appearance-none border border-slate-700 rounded-lg w-[25rem] py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                 id="name"
                                 type="text"
                                 placeholder="Enter your name"
@@ -32,7 +44,7 @@ const Form = () => {
                                 Email
                             </label>
                             <input
-                                className="appearance-none border border-slate-700 rounded-lg w-[28rem] py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                className="appearance-none border border-slate-700 rounded-lg w-[25rem] py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                 id="email"
                                 type="email"
                                 placeholder="Enter your email"
@@ -44,7 +56,7 @@ const Form = () => {
                                 Text
                             </label>
                             <input
-                                className="appearance-none border border-slate-700 rounded-lg w-[28rem] py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                className="appearance-none border border-slate-700 rounded-lg w-[25rem] py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                                 id="phone"
                                 type="text"
                                 placeholder="Enter phone number"
