@@ -6,8 +6,8 @@ export const Describe = () => {
   return (
     <>
       <div className="w-full">
-        <div className="flex w-full justify-start items-center gap-3 p-6 border-b border-gray-300">
-          <BsArrowLeft className="text-green-600 font-extrabold text-4xl" />
+        <div className="flex w-full justify-start items-center gap-3 p-6 border-b border-gray-300 ">
+          <BsArrowLeft className="text-green-600 font-extrabold text-4xl ml-[2.5rem]" />
           <div className="bg-purple-800 rounded-full w-8 h-8  " />
           <div className="font-xl font-semibold">Sindhu Biswal</div>
         </div>
@@ -43,12 +43,12 @@ export const Describe = () => {
             <h1 className="text-3xl font-bold">Let's connect!</h1>
             <div className="flex justify-start gap-2 ">
               <div className="bg-[#C0E6D5] px-6  rounded-full ">
-                <h1 className="font-bold">4</h1>
-                <h1 className="">Love it</h1>
+                <h1 className="font-bold">5</h1>
+                <h1 className="">Sessions</h1>
               </div>
               <div className="bg-[#C0E6D5] px-6  rounded-full ">
-                <h1 className="font-bold">4</h1>
-                <h1 className="">Love it</h1>
+                <h1 className="font-bold">2</h1>
+                <h1 className="">Loved it</h1>
               </div>
             </div>
           </div>

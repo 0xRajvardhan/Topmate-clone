@@ -6,7 +6,7 @@ const Selection = () => {
   return (
     <>
       <div className=" min-h-screen w-full bg-[#fef8ed]">
-        <div className="max-w-6xl bg-white  min-h-screen mx-auto flex justify-center">
+        <div className="max-w-[74rem] bg-white  min-h-screen mx-auto flex justify-center">
           <div className="border-r border-gray-400 min-h-screen w-[60%]">
             <Describe />
           </div>
