@@ -1,5 +1,6 @@
 import React from "react";
 import { BsArrowLeft } from "react-icons/bs";
+import { BsCameraVideo } from "react-icons/bs"
 
 export const Describe = () => {
   return (
@@ -10,15 +11,15 @@ export const Describe = () => {
           <div className="bg-purple-800 rounded-full w-8 h-8  " />
           <div className="font-xl font-semibold">Sindhu Biswal</div>
         </div>
-        <div className="bg-[#F6C873] h-24 w-[80%] mx-auto mt-7 flex justify-center items-center text-2xl text-white font-bold">
+        <div className="bg-[#C0E6D5] h-24 w-[80%] mx-auto mt-7 flex justify-center items-center text-2xl text-black font-bold">
           <p>Career Mentorship - for students, professionals</p>
         </div>
         <div className="w-[80%] border-b mx-auto border-r border-l flex justify-center">
-          <div className="flex justify-start items-center w-full p-2">
-            <p>₹300</p>
+          <div className="flex justify-start items-center w-full p-2 font-bold">
+            <p>₹899</p>
           </div>
-          <div className="flex justify-start items-center w-full p-2 border-l">
-            <p>₹300</p>
+          <div className="flex justify-start items-center w-full p-2 border-l font-bold">
+            <p className="flex"><BsCameraVideo className="mx-2 mt-1 mr-4" />30 mins</p>
           </div>
         </div>
         <div className="w-[80%] mx-auto mt-10">
@@ -41,11 +42,11 @@ export const Describe = () => {
           <div className=" flex flex-col justify-start gap-3">
             <h1 className="text-3xl font-bold">Let's connect!</h1>
             <div className="flex justify-start gap-2 ">
-              <div className="bg-[#F6C873] px-6  rounded-full ">
+              <div className="bg-[#C0E6D5] px-6  rounded-full ">
                 <h1 className="font-bold">4</h1>
                 <h1 className="">Love it</h1>
               </div>
-              <div className="bg-[#F6C873] px-6  rounded-full ">
+              <div className="bg-[#C0E6D5] px-6  rounded-full ">
                 <h1 className="font-bold">4</h1>
                 <h1 className="">Love it</h1>
               </div>
@@ -55,7 +56,7 @@ export const Describe = () => {
             <div className="bg-purple-800 rounded-full w-20 h-20  " />
           </div>
         </div>
-        <div className="w-[80%] mx-auto bg-[#DDA134]  mb-10 h-44"></div>
+        <div className="w-[80%] mx-auto bg-[#7FA79B]  mb-10 h-44"></div>
       </div>
     </>
   );
