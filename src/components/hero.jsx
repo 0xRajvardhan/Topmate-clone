@@ -4,9 +4,9 @@ import { BsLinkedin, BsTwitter, BsYoutube, BsInstagram } from "react-icons/bs";
 export const HeroSection = () => {
   return (
     <>
-      <div className="container px-12 ml-[7rem] mx-auto flex justify-between gap-10 items-center h-[30rem] ">
+      <div className="container px-12  mx-auto flex justify-start gap-10 items-center h-[30rem] ">
         <div className="w-72 h-72  bg-purple-800 rounded-full"></div>
-        <div className="flex flex-col w-9/12  mb-12">
+        <div className="flex flex-col w-[44rem]  mb-12">
           <h1 className="text-5xl font-bold text-black pb-7">Sindhu Biswal</h1>
           <p className="text-base  text-black w-4/5 ">
             Growth Leader @Jupiter, Betterhalf, FilterCopy, PayTm Insider, Dice
