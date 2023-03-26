@@ -3,8 +3,8 @@ import { Navbar } from "./components/navbar";
 import { About } from "./components/about";
 import { Footer } from "./components/footer";
 
-import  Form  from "./components/form";
-
+import Form from "./components/form";
+import Selection from "./components/selection";
 import { CardSection } from "./components/cardSection";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 
@@ -27,6 +27,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/form" element={<Form />} />
+          <Route path="/selection" element={<Selection />} />
         </Routes>
       </BrowserRouter>
     </>
