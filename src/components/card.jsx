@@ -3,7 +3,7 @@ import React from "react";
 export const Card = () => {
   return (
     <>
-      <div className="bg-white w-[34rem] h-48 rounded-lg p-3 flex justify-between flex-col">
+      <div className="bg-white w-[32rem] h-44 rounded-lg p-3 flex justify-between flex-col">
         <div className="flex flex-row justify-between items-center">
           <div className="flex flex-row gap-2 items-center">
             <div className="bg-slate-200 rounded-full mx-1 h-10 w-10" />
